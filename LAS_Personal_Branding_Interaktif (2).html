@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAS Personal Branding Eksploratif</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1, h2 { color: #003366; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea, select { width: 100%; padding: 8px; margin-top: 4px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
+    .checklist { margin-top: 20px; }
+    .qr { width: 150px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>LAS Personal Branding Eksploratif</h1>
+  <p><strong>Mata Pelajaran:</strong> Manajemen Bisnis</p>
+  <p><strong>Materi:</strong> Personal Branding</p>
+  <p><strong>Kelas:</strong> X</p>
+
+  <label>Kelompok:</label>
+  <input type="text" name="kelompok">
+
+  <label>Nama Anggota:</label>
+  <input type="text" name="anggota">
+
+  <label>Tanggal:</label>
+  <input type="date" name="tanggal">
+
+  <h2>Langkah 1: Susun Puzzle</h2>
+  <p>
+    🔷 Susun potongan gambar puzzle bertema TKJ.<br>
+    🔷 Pastikan QR Code bisa dipindai.<br>
+    📸 Bukti: Foto bersama hasil puzzle yang sudah disusun.
+  </p>
+
+  <h2>Langkah 2: Scan dan Temukan Materi</h2>
+  <label>Judul Materi dari QR:</label>
+  <input type="text">
+
+  <label>Isi materi (ringkas & poin penting):</label>
+  <textarea rows="6"></textarea>
+
+  <h2>Langkah 3: Tukar Materi + Tantangan</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Kelompok</th>
+        <th>Judul Materi</th>
+        <th>Isi Ringkas</th>
+        <th>Tantangan Diberikan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><input></td><td><input></td><td><input></td><td><input></td></tr>
+      <tr><td><input></td><td><input></td><td><input></td><td><input></td></tr>
+      <tr><td><input></td><td><input></td><td><input></td><td><input></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Langkah 4: Simpulkan!</h2>
+  <label>Kesimpulan kami tentang Personal Branding:</label>
+  <textarea rows="4"></textarea>
+
+  <h2>Langkah 5: Buat Video Edukatif</h2>
+  <p>
+    🎥 Buatlah video 1 menit menjelaskan apa itu personal branding.<br>
+    💡 Gunakan gaya kalian: drama pendek, narasi, infografis, dsb.
+  </p>
+  <label>Link upload video:</label>
+  <input type="url">
+  <p>Atau scan QR berikut untuk mengunggah:</p>
+  <img src="Meminta_materi.png" alt="QR Code Upload" class="qr">
+
+  <div class="checklist">
+    <h2>Checklist Kelompok</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Aktivitas</th>
+          <th>Sudah</th>
+          <th>Belum</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Puzzle selesai & difoto</td><td><input type="checkbox"></td><td><input type="checkbox"></td></tr>
+        <tr><td>QR Code dipindai</td><td><input type="checkbox"></td><td><input type="checkbox"></td></tr>
+        <tr><td>Materi ditukar</td><td><input type="checkbox"></td><td><input type="checkbox"></td></tr>
+        <tr><td>Tantangan diberikan</td><td><input type="checkbox"></td><td><input type="checkbox"></td></tr>
+        <tr><td>Simpulan ditulis</td><td><input type="checkbox"></td><td><input type="checkbox"></td></tr>
+        <tr><td>Video dibuat & diunggah</td><td><input type="checkbox"></td><td><input type="checkbox"></td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
